@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "このファイルの変更前後を保存",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/savefile.sh", "$commit", "$path"] }
+    }
+]

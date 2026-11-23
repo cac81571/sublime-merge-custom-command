@@ -1,0 +1,32 @@
+[
+    {
+        "caption": "ファイル一覧をコピー",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyfiles.sh", "$commit"] }
+    },
+    {
+        "caption": "ファイル一覧をコピー（範囲）クリップボード～新",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyfiles-range.sh", "$commit"] }
+    },
+    {
+        "caption": "ファイル一覧詳細をコピー",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyfiles-detail.sh", "$commit"] }
+    },
+    {
+        "caption": "ファイル一覧詳細をコピー（範囲）クリップボード～新",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyfiles-detail-range.sh", "$commit"] }
+    },
+    {
+        "caption": "変更前後のファイルを保存",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/savebeforeafter.sh", "$commit"] }
+    },
+    {
+        "caption": "zip エクスポート（全ファイル）",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/zip-all.sh", "$commit"] }
+    }
+]

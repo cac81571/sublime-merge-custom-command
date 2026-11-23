@@ -1,0 +1,15 @@
+# sm-scripts runtime output
+sm-scripts/*.tmp
+sm-scripts/*.log
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
