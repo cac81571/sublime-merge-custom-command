@@ -1,5 +1,10 @@
 [
     {
+        "caption": "コミットハッシュ（短い）をコピー",
+        "command": "git",
+        "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyhash.sh", "$commit"] }
+    },
+    {
         "caption": "ファイル一覧をコピー",
         "command": "git",
         "args": { "argv": ["-c", "alias.smsh=!sh", "smsh", "$packages/User/sm-scripts/copyfiles.sh", "$commit"] }
